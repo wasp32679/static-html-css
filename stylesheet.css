@@ -1,13 +1,27 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
 h1 {
   font-family: "Merriweather", sans-serif;
-  font-weight: 300;
+  font-weight: 700;
   font-style: normal;
+  color: #ff5678;
+  size: 28px;
 }
 
 .navbar {
+  height: 84px;
+  width: 1920px;
   display: flex;
   padding: 8px 150px 8px 150px;
   justify-content: space-between;
+  box-shadow: 0 8px 20px #00000014;
 }
 
 .logo {
@@ -16,16 +30,28 @@ h1 {
 }
 
 .menu {
-  width: 702px;
-  height: 68px;
   display: flex;
-  align-items: center;
+  gap: 60px;
   justify-content: space-between;
 }
 
 .menu a {
   color: black;
   text-decoration: none;
+  font-family: "Merriweather", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  alignment-baseline: center;
+}
+
+.link {
+  width: 457px;
+  height: 28px;
+  display: flex;
+  padding: 20px 0 20px 0;
+  gap: 60px;
+  justify-content: space-between;
 }
 
 .contactusbutton {
@@ -33,10 +59,31 @@ h1 {
   border-width: 0 0 0 0;
   background-color: #020e35;
   color: white;
+  font-family: "Merriweather", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
 }
 
-.menu :hover {
+.menu-item:hover {
   text-decoration: underline;
   text-decoration-color: #ff5678;
+  text-underline-offset: 8px;
   text-decoration-thickness: 4px;
+}
+
+.home {
+  width: 1920px;
+  height: 1008px;
+  top: 84.02px;
+  display: flex;
+  padding: 300px 150px 200px 150px;
+}
+
+.heading {
+  background-color: #eee;
+  flex-direction: column;
+  width: 548px;
+  height: 457px;
+  gap: 56px;
 }
