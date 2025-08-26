@@ -9,6 +9,20 @@ body {
   box-sizing: border-box;
 }
 
+h2 {
+  padding-right: 10px;
+  font-weight: 700;
+  font-size: 54px;
+  line-height: 62px;
+  margin: 0;
+}
+
+.basictxt {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+}
+
 .padd {
   padding: 100px 150px 100px 150px;
 }
@@ -160,10 +174,6 @@ h1 {
   justify-content: space-between;
 }
 
-.imgworkers {
-  display: flex;
-}
-
 .block2_1 {
   width: 517px;
   height: 435px;
@@ -173,19 +183,14 @@ h1 {
 }
 
 .textblock2 {
-  height: 304px;
   display: flex;
-  flex-direction: column-reverse;
+  flex-direction: column;
   gap: 42px;
 }
 
 .ptitle {
   display: inline;
   padding-right: 10px;
-  font-weight: 700;
-  font-size: 54px;
-  line-height: 62px;
-  margin: 0;
 }
 
 .underline_2 {
@@ -193,14 +198,6 @@ h1 {
   background-repeat: no-repeat;
   background-size: 100% 0.95em;
   background-position: 0.1em 0.7em;
-}
-
-.poweredtext {
-  margin-top: auto;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 23px;
-  margin: 0;
 }
 
 .poweredbtn {
@@ -306,13 +303,6 @@ p {
   line-height: 36px;
 }
 
-.liltxt {
-  display: flex;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 23px;
-}
-
 .decale2 {
   transform: translateY(-8.5px);
 }
@@ -328,4 +318,28 @@ p {
   position: absolute;
   top: 1987px;
   left: -10px;
+}
+
+.craft {
+  height: 870px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.block4_1 {
+  width: 664px;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.craftxt {
+  line-height: 32px;
+}
+
+.textblock3 {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
 }
