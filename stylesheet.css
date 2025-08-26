@@ -343,3 +343,96 @@ p {
   flex-direction: column;
   gap: 60px;
 }
+
+.team {
+  height: 1485px;
+  display: flex;
+  flex-direction: column;
+  gap: 104px;
+  align-items: center;
+}
+
+.block5_1 {
+  width: 1620px;
+  height: 1109px;
+  display: flex;
+  flex-direction: column;
+  gap: 51px;
+}
+
+.grid1 {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 19px;
+}
+
+.membert {
+  width: 520px;
+  height: 519px;
+  border: solid 1px rgba(184, 184, 184, 1);
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  align-self: center;
+  justify-content: center;
+  border-radius: 50px;
+}
+
+.selected {
+  width: 539px;
+  height: 539px;
+  border: solid 1px rgba(184, 184, 184, 1);
+  display: flex;
+  flex-direction: column;
+  padding: 71px 165px 71px 165px;
+  gap: 60px;
+  align-items: center;
+  border-radius: 50px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+}
+
+.grid2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 32px;
+}
+
+.memberb {
+  width: 519px;
+  height: 519px;
+  border: solid 1px rgba(184, 184, 184, 1);
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  align-self: center;
+  justify-content: center;
+  border-radius: 50px;
+}
+
+img {
+  max-width: 200px;
+  align-self: center;
+}
+
+.info {
+  width: 227px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-self: center;
+}
+
+.name {
+  font-family: Merriweather;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 28px;
+  line-height: 36px;
+  letter-spacing: 0%;
+  align-self: center;
+}
+
+.skill {
+  align-self: center;
+}
