@@ -1,18 +1,19 @@
 body {
   margin: 0;
   padding: 0;
+  font-family: "Merriweather", sans-serif;
+  color: rgba(2, 14, 53, 1);
 }
 
 * {
   box-sizing: border-box;
 }
 
-p {
-  color: rgba(2, 14, 53, 1);
+.padd {
+  padding: 100px 150px 100px 150px;
 }
 
 h1 {
-  font-family: "Merriweather", sans-serif;
   font-weight: 700;
   font-style: normal;
   color: #ff5678;
@@ -21,7 +22,6 @@ h1 {
 
 .navbar {
   height: 84px;
-  width: 1920px;
   display: flex;
   padding: 8px 150px 8px 150px;
   justify-content: space-between;
@@ -42,7 +42,6 @@ h1 {
 .menu a {
   color: black;
   text-decoration: none;
-  font-family: "Merriweather", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
@@ -50,21 +49,18 @@ h1 {
 }
 
 .link {
-  width: 457px;
-  height: 28px;
   display: flex;
   padding: 20px 0 20px 0;
   gap: 60px;
   justify-content: space-between;
-  color: rgba(2, 14, 53, 1);
 }
 
 .contactusbutton {
+  font-family: "Merriweather", sans-serif;
   padding: 24px 40px 24px 40px;
   border-width: 0 0 0 0;
   background-color: #020e35;
   color: white;
-  font-family: "Merriweather", sans-serif;
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
@@ -85,7 +81,6 @@ h1 {
 }
 
 .home {
-  width: 1920px;
   height: 1008px;
   top: 84.02px;
   display: flex;
@@ -96,7 +91,6 @@ h1 {
 .block1 {
   display: flex;
   flex-direction: column;
-  width: 548px;
   height: 457px;
   gap: 56px;
 }
@@ -104,13 +98,11 @@ h1 {
 .textblock {
   display: flex;
   width: 548px;
-  height: 330px;
   flex-direction: column;
   justify-content: center;
 }
 
 .heading {
-  font-family: "Merriweather", sans-serif;
   font-weight: 900;
   font-size: 76px;
   line-height: 110px;
@@ -124,14 +116,14 @@ h1 {
   background-position: 0 0.12em;
 }
 
-.seeourworkbtn {
+.btn {
+  font-family: "Merriweather", sans-serif;
   height: 71px;
   width: 197px;
   padding: 24px 40px 24px 40px;
   border-width: 0 0 0 0;
   background-color: #020e35;
   color: white;
-  font-family: "Merriweather", sans-serif;
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
@@ -162,11 +154,9 @@ h1 {
 }
 
 .poweredby {
-  width: 1920px;
   height: 708px;
   top: 1092.03px;
   display: flex;
-  padding: 100px 150px 100px 150px;
   justify-content: space-between;
 }
 
@@ -189,15 +179,9 @@ h1 {
   gap: 42px;
 }
 
-.title {
-  width: 428px;
-  height: 124px;
-}
-
 .ptitle {
   display: inline;
   padding-right: 10px;
-  font-family: "Merriweather", sans-serif;
   font-weight: 700;
   font-size: 54px;
   line-height: 62px;
@@ -213,7 +197,6 @@ h1 {
 
 .poweredtext {
   margin-top: auto;
-  font-family: "Merriweather", sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 23px;
@@ -227,13 +210,13 @@ h1 {
 }
 
 .learnmorebtn {
+  font-family: "Merriweather", sans-serif;
   width: 185px;
   height: 71px;
   padding: 24px 40px 24px 40px;
   border-width: 0 0 0 0;
   background-color: #020e35;
   color: white;
-  font-family: "Merriweather", sans-serif;
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
@@ -241,7 +224,6 @@ h1 {
 }
 
 .watch {
-  font-family: "Merriweather", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 23px;
@@ -256,17 +238,13 @@ h1 {
 }
 
 .services {
-  width: 1920px;
   height: 792px;
   top: 1800.05px;
   display: flex;
   justify-content: space-between;
-  padding: 100px 150px 100px 150px;
 }
 
 .block3_2 {
-  width: 545px;
-  height: 592px;
   gap: 120px;
   display: flex;
   flex-direction: column;
@@ -279,11 +257,6 @@ h1 {
   background-repeat: no-repeat;
   background-size: 100% 0.95em;
   background-position: 0em 0.65em;
-}
-
-.stitle {
-  width: 457px;
-  height: 62px;
 }
 
 .stext {
@@ -302,7 +275,6 @@ h1 {
 .numbox {
   padding-top: 8px;
   display: flex;
-  font-family: "Merriweather", sans-serif;
   font-weight: 400;
   font-size: 64px;
   line-height: 72px;
@@ -329,7 +301,6 @@ p {
 
 .liltitle {
   display: flex;
-  font-family: "Merriweather", sans-serif;
   font-weight: 700;
   font-size: 28px;
   line-height: 36px;
@@ -337,7 +308,6 @@ p {
 
 .liltxt {
   display: flex;
-  font-family: "Merriweather", sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 23px;
@@ -348,8 +318,6 @@ p {
 }
 
 .block3_3 {
-  width: 543px;
-  height: 410px;
   gap: 40px;
   display: flex;
   flex-direction: column;
