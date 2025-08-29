@@ -190,7 +190,6 @@ h1 {
 
 .ptitle {
   display: inline;
-  padding-right: 10px;
 }
 
 .underline_2 {
@@ -636,6 +635,7 @@ p {
 }
 
 .block8_1 {
+  height: 621px;
   width: 656px;
   display: flex;
   flex-direction: column;
@@ -651,7 +651,6 @@ p {
 
 form {
   height: 100%;
-
   display: flex;
   flex-direction: column;
   gap: 40px;
@@ -681,4 +680,15 @@ input[type="email"] {
 
 #msg {
   height: 200px;
+}
+
+.newsletters {
+  height: 870px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nopadd {
+  padding-right: 0px;
 }
