@@ -136,6 +136,7 @@ h1 {
 
 .btn {
   font-family: "Merriweather", sans-serif;
+  cursor: pointer;
   height: 71px;
   width: 197px;
   padding: 24px 40px 24px 40px;
@@ -474,47 +475,45 @@ p {
   gap: 32px;
 }
 
-.block6_2 {
-  width: 519px;
-  display: flex;
-  flex-direction: column;
-  gap: 32px;
-}
-
 .placeholder {
   width: 100%;
   height: 100%;
   background-color: rgba(255, 238, 246, 1);
 }
 
-.block6_3 {
-  width: 1069px;
-  height: 1376px;
-  display: flex;
-  flex-direction: column;
-}
-
 .grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(12, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(13, 1fr);
   grid-gap: 32px;
-  width: 1068px;
+  width: 100%;
   height: 1376px;
 }
 
 .quatre {
-  grid-row: span 4;
-  grid-column: span 2;
+  grid-row: 7 / 13;
 }
-.deux {
-  grid-row: span 4;
-}
-.trois {
-  grid-row: span 4;
-}
+
 .un {
-  grid-row: span 8;
+  grid-row: 1 / 7;
+}
+
+.deux {
+  grid-column: 2 / 2;
+  grid-row: 1 / 9;
+}
+
+.trois {
+  grid-column: 2 / 4;
+  grid-row: 9 / 13;
+}
+
+.cinq {
+  grid-row: 1 / 5;
+}
+
+.six {
+  grid-row: 5 / 9;
 }
 
 .testimonial {
@@ -796,3 +795,6 @@ footer {
   left: 1365px;
   z-index: -1;
 }
+
+/* faire une grid complete pour section previous work
+faire les hover pour avis et team */
